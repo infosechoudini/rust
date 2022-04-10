@@ -737,6 +737,7 @@ symbols! {
         gt,
         half_open_range_patterns,
         hash,
+        hashmap_xxhash, //Added for test
         hexagon_target_feature,
         hidden,
         homogeneous_aggregate,

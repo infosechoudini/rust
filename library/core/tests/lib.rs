@@ -38,6 +38,7 @@
 #![feature(future_poll_fn)]
 #![feature(array_from_fn)]
 #![feature(hashmap_internals)]
+#![feature(hashmap_xxhash)]
 #![feature(try_find)]
 #![feature(inline_const)]
 #![feature(is_sorted)]

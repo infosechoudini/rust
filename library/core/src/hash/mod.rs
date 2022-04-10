@@ -88,6 +88,8 @@
 use crate::fmt;
 use crate::marker;
 
+
+
 #[stable(feature = "rust1", since = "1.0.0")]
 #[allow(deprecated)]
 pub use self::sip::SipHasher;
@@ -98,18 +100,25 @@ pub use self::sip::SipHasher;
 pub use self::sip::SipHasher13;
 
 mod sip;
+
 mod xxh32_common;
 mod xxh64_common;
 
-#[unstable(feature = "hashmap_internals", issue = "none")]
+#[unstable(feature = "hashmap_xxhash", issue = "none")]
 pub use self::xxh64::Xxh64;
 
-#[unstable(feature = "hashmap_internals", issue = "none")]
-pub use self::xxh32::Xxh32;
-
-mod xxh32;
 mod xxh64;
-//mod xxhash;
+
+
+#[unstable(feature = "hashmap_xxhash", issue = "none")]
+pub use self::fxhash::FxHasher;
+
+mod fxhash;
+
+
+#[unstable(feature = "hashmap_xxhash", issue = "none")]
+pub use self::city64::CityHash64;
+mod city64;
 
 /// A hashable type.
 ///

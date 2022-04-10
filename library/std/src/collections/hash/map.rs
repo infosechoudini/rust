@@ -1,5 +1,7 @@
+
 #[cfg(test)]
 mod tests;
+
 
 use self::Entry::*;
 
@@ -11,10 +13,11 @@ use crate::collections::TryReserveError;
 use crate::collections::TryReserveErrorKind;
 use crate::fmt::{self, Debug};
 #[allow(deprecated)]
-use crate::hash::{BuildHasher, Hash, Hasher, SipHasher13};
+use crate::hash::{BuildHasher, Hash, Hasher, Xxh64};
 use crate::iter::{FromIterator, FusedIterator};
 use crate::ops::Index;
 use crate::sys;
+
 
 /// A [hash map] implemented with quadratic probing and SIMD lookup.
 ///
@@ -2966,7 +2969,7 @@ impl BuildHasher for RandomState {
     #[inline]
     #[allow(deprecated)]
     fn build_hasher(&self) -> DefaultHasher {
-        DefaultHasher(SipHasher13::new_with_keys(self.k0, self.k1))
+        DefaultHasher(Xxh64::default())
     }
 }
 
@@ -2977,7 +2980,7 @@ impl BuildHasher for RandomState {
 #[stable(feature = "hashmap_default_hasher", since = "1.13.0")]
 #[allow(deprecated)]
 #[derive(Clone, Debug)]
-pub struct DefaultHasher(SipHasher13);
+pub struct DefaultHasher(Xxh64);
 
 impl DefaultHasher {
     /// Creates a new `DefaultHasher`.
@@ -2989,7 +2992,7 @@ impl DefaultHasher {
     #[allow(deprecated)]
     #[must_use]
     pub fn new() -> DefaultHasher {
-        DefaultHasher(SipHasher13::new_with_keys(0, 0))
+        DefaultHasher(Xxh64::default())
     }
 }
 

@@ -1,4 +1,5 @@
 mod sip;
+mod cityhash;
 
 use std::default::Default;
 use std::hash::{BuildHasher, Hash, Hasher};

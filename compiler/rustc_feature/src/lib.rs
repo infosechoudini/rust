@@ -13,6 +13,7 @@
 
 #![feature(derive_default_enum)]
 #![feature(once_cell)]
+#![feature(hashmap_xxhash)]
 
 mod accepted;
 mod active;

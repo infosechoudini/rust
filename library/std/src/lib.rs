@@ -187,6 +187,8 @@
 //! [rust-discord]: https://discord.gg/rust-lang
 //! [array]: prim@array
 //! [slice]: prim@slice
+#![allow(unused)]
+
 #![cfg_attr(not(feature = "restricted-std"), stable(feature = "rust1", since = "1.0.0"))]
 #![cfg_attr(feature = "restricted-std", unstable(feature = "restricted_std", issue = "none"))]
 #![doc(
@@ -255,6 +257,7 @@
 #![feature(thread_local)]
 #![feature(try_blocks)]
 //
+#![feature(hashmap_xxhash)]
 // Library features (core):
 #![feature(array_error_internals)]
 #![feature(atomic_mut_ptr)]
