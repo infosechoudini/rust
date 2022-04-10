@@ -98,6 +98,18 @@ pub use self::sip::SipHasher;
 pub use self::sip::SipHasher13;
 
 mod sip;
+mod xxh32_common;
+mod xxh64_common;
+
+#[unstable(feature = "hashmap_internals", issue = "none")]
+pub use self::xxh64::Xxh64;
+
+#[unstable(feature = "hashmap_internals", issue = "none")]
+pub use self::xxh32::Xxh32;
+
+mod xxh32;
+mod xxh64;
+//mod xxhash;
 
 /// A hashable type.
 ///

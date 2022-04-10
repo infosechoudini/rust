@@ -153,7 +153,8 @@
 #![feature(const_slice_from_ref)]
 #![feature(const_slice_index)]
 #![feature(const_is_char_boundary)]
-//
+// ALLOW UNSTABLE XXHASH
+#![feature(hashmap_xxhash)]
 // Language features:
 #![feature(abi_unadjusted)]
 #![feature(allow_internal_unsafe)]

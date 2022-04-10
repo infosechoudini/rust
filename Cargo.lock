@@ -788,6 +788,7 @@ name = "core"
 version = "0.0.0"
 dependencies = [
  "rand 0.7.3",
+ "xxhash-c-sys",
 ]
 
 [[package]]
@@ -5733,6 +5734,16 @@ dependencies = [
  "mac",
  "markup5ever",
  "time",
+]
+
+[[package]]
+name = "xxhash-c-sys"
+version = "0.8.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "debe9444c21c1b40e4656122b08d363b5b910716d48002c0071e838b132aeae3"
+dependencies = [
+ "cc",
+ "libc",
 ]
 
 [[package]]

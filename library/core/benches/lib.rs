@@ -3,17 +3,23 @@
 #![feature(flt2dec)]
 #![feature(int_log)]
 #![feature(test)]
+#![feature(hashmap_xxhash)]
+
 
 extern crate test;
-
+/*
 mod any;
 mod ascii;
 mod char;
 mod fmt;
+*/
 mod hash;
+
+/*
 mod iter;
 mod num;
 mod ops;
 mod pattern;
 mod slice;
 mod str;
+*/

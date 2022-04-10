@@ -1,1 +1,2 @@
 mod sip;
+mod xxhash;
