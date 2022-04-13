@@ -120,6 +120,14 @@ mod fxhash;
 pub use self::city64::CityHash64;
 mod city64;
 
+#[unstable(feature = "hashmap_xxhash", issue = "none")]
+pub use self::komihash::Komihash;
+
+
+#[unstable(feature = "hashmap_xxhash", issue = "none")]
+#[doc(hidden)]
+pub mod komihash;
+
 /// A hashable type.
 ///
 /// Types implementing `Hash` are able to be [`hash`]ed with an instance of

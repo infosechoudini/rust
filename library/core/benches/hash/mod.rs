@@ -1,3 +1,4 @@
 mod sip;
 mod xxhash;
-mod cityhash;
+//mod cityhash;
+mod komihash;

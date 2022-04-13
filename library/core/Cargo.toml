@@ -23,9 +23,9 @@ name = "corebenches"
 path = "benches/lib.rs"
 test = true
 
+
 [dev-dependencies]
 rand = "0.7"
-
 
 
 [features]
