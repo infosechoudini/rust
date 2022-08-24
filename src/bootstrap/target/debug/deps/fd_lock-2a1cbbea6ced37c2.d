@@ -1,0 +1,13 @@
+/home/dev/Documents/dev/rust/src/bootstrap/target/debug/deps/fd_lock-2a1cbbea6ced37c2.rmeta: /home/dev/.cargo/registry/src/github.com-1ecc6299db9ec823/fd-lock-3.0.6/src/lib.rs /home/dev/.cargo/registry/src/github.com-1ecc6299db9ec823/fd-lock-3.0.6/src/read_guard.rs /home/dev/.cargo/registry/src/github.com-1ecc6299db9ec823/fd-lock-3.0.6/src/rw_lock.rs /home/dev/.cargo/registry/src/github.com-1ecc6299db9ec823/fd-lock-3.0.6/src/write_guard.rs /home/dev/.cargo/registry/src/github.com-1ecc6299db9ec823/fd-lock-3.0.6/src/sys/mod.rs /home/dev/.cargo/registry/src/github.com-1ecc6299db9ec823/fd-lock-3.0.6/src/sys/unix/mod.rs /home/dev/.cargo/registry/src/github.com-1ecc6299db9ec823/fd-lock-3.0.6/src/sys/unix/read_guard.rs /home/dev/.cargo/registry/src/github.com-1ecc6299db9ec823/fd-lock-3.0.6/src/sys/unix/rw_lock.rs /home/dev/.cargo/registry/src/github.com-1ecc6299db9ec823/fd-lock-3.0.6/src/sys/unix/write_guard.rs
+
+/home/dev/Documents/dev/rust/src/bootstrap/target/debug/deps/fd_lock-2a1cbbea6ced37c2.d: /home/dev/.cargo/registry/src/github.com-1ecc6299db9ec823/fd-lock-3.0.6/src/lib.rs /home/dev/.cargo/registry/src/github.com-1ecc6299db9ec823/fd-lock-3.0.6/src/read_guard.rs /home/dev/.cargo/registry/src/github.com-1ecc6299db9ec823/fd-lock-3.0.6/src/rw_lock.rs /home/dev/.cargo/registry/src/github.com-1ecc6299db9ec823/fd-lock-3.0.6/src/write_guard.rs /home/dev/.cargo/registry/src/github.com-1ecc6299db9ec823/fd-lock-3.0.6/src/sys/mod.rs /home/dev/.cargo/registry/src/github.com-1ecc6299db9ec823/fd-lock-3.0.6/src/sys/unix/mod.rs /home/dev/.cargo/registry/src/github.com-1ecc6299db9ec823/fd-lock-3.0.6/src/sys/unix/read_guard.rs /home/dev/.cargo/registry/src/github.com-1ecc6299db9ec823/fd-lock-3.0.6/src/sys/unix/rw_lock.rs /home/dev/.cargo/registry/src/github.com-1ecc6299db9ec823/fd-lock-3.0.6/src/sys/unix/write_guard.rs
+
+/home/dev/.cargo/registry/src/github.com-1ecc6299db9ec823/fd-lock-3.0.6/src/lib.rs:
+/home/dev/.cargo/registry/src/github.com-1ecc6299db9ec823/fd-lock-3.0.6/src/read_guard.rs:
+/home/dev/.cargo/registry/src/github.com-1ecc6299db9ec823/fd-lock-3.0.6/src/rw_lock.rs:
+/home/dev/.cargo/registry/src/github.com-1ecc6299db9ec823/fd-lock-3.0.6/src/write_guard.rs:
+/home/dev/.cargo/registry/src/github.com-1ecc6299db9ec823/fd-lock-3.0.6/src/sys/mod.rs:
+/home/dev/.cargo/registry/src/github.com-1ecc6299db9ec823/fd-lock-3.0.6/src/sys/unix/mod.rs:
+/home/dev/.cargo/registry/src/github.com-1ecc6299db9ec823/fd-lock-3.0.6/src/sys/unix/read_guard.rs:
+/home/dev/.cargo/registry/src/github.com-1ecc6299db9ec823/fd-lock-3.0.6/src/sys/unix/rw_lock.rs:
+/home/dev/.cargo/registry/src/github.com-1ecc6299db9ec823/fd-lock-3.0.6/src/sys/unix/write_guard.rs:

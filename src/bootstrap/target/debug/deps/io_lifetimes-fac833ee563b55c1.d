@@ -1,0 +1,12 @@
+/home/dev/Documents/dev/rust/src/bootstrap/target/debug/deps/io_lifetimes-fac833ee563b55c1.rmeta: /home/dev/.cargo/registry/src/github.com-1ecc6299db9ec823/io-lifetimes-0.7.2/src/lib.rs /home/dev/.cargo/registry/src/github.com-1ecc6299db9ec823/io-lifetimes-0.7.2/src/portability.rs /home/dev/.cargo/registry/src/github.com-1ecc6299db9ec823/io-lifetimes-0.7.2/src/traits.rs /home/dev/.cargo/registry/src/github.com-1ecc6299db9ec823/io-lifetimes-0.7.2/src/types.rs /home/dev/.cargo/registry/src/github.com-1ecc6299db9ec823/io-lifetimes-0.7.2/src/impls_std.rs /home/dev/.cargo/registry/src/github.com-1ecc6299db9ec823/io-lifetimes-0.7.2/src/impls_std_views.rs /home/dev/.cargo/registry/src/github.com-1ecc6299db9ec823/io-lifetimes-0.7.2/src/raw.rs /home/dev/.cargo/registry/src/github.com-1ecc6299db9ec823/io-lifetimes-0.7.2/src/views.rs
+
+/home/dev/Documents/dev/rust/src/bootstrap/target/debug/deps/io_lifetimes-fac833ee563b55c1.d: /home/dev/.cargo/registry/src/github.com-1ecc6299db9ec823/io-lifetimes-0.7.2/src/lib.rs /home/dev/.cargo/registry/src/github.com-1ecc6299db9ec823/io-lifetimes-0.7.2/src/portability.rs /home/dev/.cargo/registry/src/github.com-1ecc6299db9ec823/io-lifetimes-0.7.2/src/traits.rs /home/dev/.cargo/registry/src/github.com-1ecc6299db9ec823/io-lifetimes-0.7.2/src/types.rs /home/dev/.cargo/registry/src/github.com-1ecc6299db9ec823/io-lifetimes-0.7.2/src/impls_std.rs /home/dev/.cargo/registry/src/github.com-1ecc6299db9ec823/io-lifetimes-0.7.2/src/impls_std_views.rs /home/dev/.cargo/registry/src/github.com-1ecc6299db9ec823/io-lifetimes-0.7.2/src/raw.rs /home/dev/.cargo/registry/src/github.com-1ecc6299db9ec823/io-lifetimes-0.7.2/src/views.rs
+
+/home/dev/.cargo/registry/src/github.com-1ecc6299db9ec823/io-lifetimes-0.7.2/src/lib.rs:
+/home/dev/.cargo/registry/src/github.com-1ecc6299db9ec823/io-lifetimes-0.7.2/src/portability.rs:
+/home/dev/.cargo/registry/src/github.com-1ecc6299db9ec823/io-lifetimes-0.7.2/src/traits.rs:
+/home/dev/.cargo/registry/src/github.com-1ecc6299db9ec823/io-lifetimes-0.7.2/src/types.rs:
+/home/dev/.cargo/registry/src/github.com-1ecc6299db9ec823/io-lifetimes-0.7.2/src/impls_std.rs:
+/home/dev/.cargo/registry/src/github.com-1ecc6299db9ec823/io-lifetimes-0.7.2/src/impls_std_views.rs:
+/home/dev/.cargo/registry/src/github.com-1ecc6299db9ec823/io-lifetimes-0.7.2/src/raw.rs:
+/home/dev/.cargo/registry/src/github.com-1ecc6299db9ec823/io-lifetimes-0.7.2/src/views.rs:

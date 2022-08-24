@@ -1,0 +1,5 @@
+cargo:rerun-if-changed=build.rs
+cargo:rerun-if-env-changed=RUSTC
+cargo:rustc-env=BUILD_TRIPLE=x86_64-unknown-linux-gnu
+cargo:rerun-if-env-changed=PATH
+cargo:rustc-env=RUSTC=/home/dev/.cargo/bin/rustc

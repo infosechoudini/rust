@@ -73,6 +73,7 @@ mod linux_base;
 mod linux_gnu_base;
 mod linux_kernel_base;
 mod linux_musl_base;
+mod linux_ritc_base;
 mod linux_uclibc_base;
 mod msvc_base;
 mod netbsd_base;
@@ -1047,6 +1048,10 @@ supported_targets! {
     ("x86_64-unknown-none", x86_64_unknown_none),
 
     ("mips64-openwrt-linux-musl", mips64_openwrt_linux_musl),
+
+
+    ("x86_64-unknown-linux-ritc", x86_64_unknown_linux_ritc),
+
 }
 
 /// Cow-Vec-Str: Cow<'static, [Cow<'static, str>]>
